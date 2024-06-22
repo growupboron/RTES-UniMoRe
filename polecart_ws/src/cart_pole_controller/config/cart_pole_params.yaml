@@ -1,5 +1,5 @@
 cart_pole_controller:
   ros__parameters:
-    kp: 18.0
+    kp: 108.0
     ki: 0.1
     kd: 1.0
