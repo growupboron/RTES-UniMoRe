@@ -1,5 +1,17 @@
 cart_pole_controller:
   ros__parameters:
-    kp: 108.0
-    ki: 0.1
-    kd: 1.0
+    kp: 10.0
+    ki: 0.0
+    kd: 0.0
+
+cart_pole_controller_tw:
+  ros__parameters:
+    kp: 10.0
+    ki: 0.0
+    kd: 0.0
+
+cart_pole_controller_zn:
+  ros__parameters:
+    kp: 1.0
+    ki: 0.0
+    kd: 0.0
