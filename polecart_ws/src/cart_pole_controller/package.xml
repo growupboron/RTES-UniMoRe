@@ -1,7 +1,7 @@
 <package format="3">
   <name>cart_pole_controller</name>
   <version>0.0.1</version>
-  <description>Cart Pole PID Controller with auto-tuning in ROS2</description>
+  <description>Cart Pole PID Controller in ROS2</description>
   <maintainer email="shankhoghosh123@gmail.com">Shankho Boron Ghosh</maintainer>
   <license>Apache-2.0</license>
 
