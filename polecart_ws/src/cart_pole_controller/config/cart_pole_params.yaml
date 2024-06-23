@@ -1,17 +1,27 @@
 cart_pole_controller:
   ros__parameters:
-    kp: 10.0
-    ki: 0.0
-    kd: 0.0
+    # Tuned Values 1
+    kp: 25.0 # Proportional Gain (kp): Determines the reaction to the current error. A higher kp results in a stronger correction. (Set first)
+    ki: 0.1 # Integral Gain (ki): Addresses accumulated past errors. It helps eliminate the steady-state error. (Set last)
+    kd: 5.0 # Derivative Gain (kd): Reacts to the rate of change of the error. It helps dampen the oscillations. (Set second)
 
-cart_pole_controller_tw:
-  ros__parameters:
-    kp: 10.0
-    ki: 0.0
-    kd: 0.0
+    # Tuned Values 2
+    kp: 25.0
+    ki: 0.1
+    kd: 5.0
 
-cart_pole_controller_zn:
-  ros__parameters:
-    kp: 1.0
-    ki: 0.0
-    kd: 0.0
+    # Oscillatory Response
+    # kp: 25.0
+    # ki: 0.0
+    # kd: 0.0
+
+
+    # Small Response
+    # kp: 10.0
+    # ki: 0.1
+    # kd: 5.0
+
+    # Explosive Response
+    # kp: 100.0
+    # ki: 0.1
+    # kd: 5.0
